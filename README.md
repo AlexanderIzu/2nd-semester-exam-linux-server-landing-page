@@ -13,7 +13,7 @@ Want to see it live? Click below to check out my deployed landing page:
 - If the instance is **terminated**, the IP address associated to this url will no longer be available.
 
 📸 Here’s a snapshot of the landing page you’ll be visiting. 
-![Landing page](images\HTTPS_version_of_HTML_Page.png)
+![Landing page](./images/HTTPS_version_of_HTML_Page.png)
 
 
 ### 🛠️ How I Built It
@@ -55,7 +55,7 @@ sudo systemctl enable apache2
 - Verified everything was working by visiting the public IP in a browser. 
 
 Snapshot of Apache installed and running 📸
-![Apache running on web browser](images\Apache2_running.png)
+![Apache running on web browser](./images/Apache2_running.png)
 
 
 ### Step 3: Deploying the Landing Page 📝
@@ -91,7 +91,7 @@ I needed to make sure the world could access my landing page, so I updated the S
 - Tested by accessing the page via the public IP: [http://web.izuchukwu.mooo.com](https://web.izuchukwu.mooo.com)
     
 Here is a snapshot 📸
-![Landing Page with HTTP (port 80) allowed](images\Deployed_HTML_page.png)
+![Landing Page with HTTP (port 80) allowed](./images/Deployed_HTML_page.png)
 
 
 ### Bonus Step: Setting Up HTTPS 🔒
