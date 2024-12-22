@@ -57,7 +57,7 @@ Snapshot of Apache installed and running 📸
 ![Apache running on web browser](./images/Apache2_running.png)
 
 **Note**: 
--  I have attached an Elastic IP to the EC2 instance. The public IP shown in the image is not accessible, as Elastic IPs carry a different IP address.
+*I have attached an Elastic IP to the EC2 instance. The public IP shown in the image is not accessible, as Elastic IPs carry a different IP address.*
 
 ### Step 3: Deploying the Landing Page 💻
 
