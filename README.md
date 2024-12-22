@@ -115,6 +115,9 @@ Verified secure access via:
 
 - **The Deployed Landing Page (Secure HTTPS Link)**: [https://web.izuchukwu.mooo.com](https://web.izuchukwu.mooo.com)
 
+*For visual reference, see the snapshot at the beginning of this README to view the landing page in action.*
+
+
 
 ### What’s Inside the Repository 📦 
 Here’s a rundown of what you’ll find in this repository:
