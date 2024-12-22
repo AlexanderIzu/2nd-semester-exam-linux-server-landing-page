@@ -1,15 +1,18 @@
-# Introducing Izuchukwu's Landing Page: A Web App Prototype 🖥️
+# Landing Page in the Cloud: A Hands-On Guide to AWS EC2 and Linux Server Deployment 🐧☁️
 
 Hello and welcome to my Linux-powered landing page project, deployed on an EC2 instance in AWS. In this project, I had the opportunity to dive into provisioning a cloud server, setting up a web server, and deploying a simple landing page to showcase my skills. Let me walk you through how I brought it all together.
 ## Check Out the Web Page
 
 Before we dive into the details, want to see it live? Click below to check out my deployed landing page:
 
-**Website (Secure HTTPS URL)**: [https://web.izuchukwu.mooo.com](https://web.izuchukwu.mooo.com)
+**Secure HTTPS URL**: [https://web.izuchukwu.mooo.com](https://web.izuchukwu.mooo.com)
 
-**Note**: 
-- The server is temporary and will be taken down soon. If the instance is stopped, the server will be unavailable, and the links above may not work until the instance is restarted.
-- If the instance is **terminated**, the IP address associated to this url will no longer be available.
+**Public IP Address**: [18.214.150.124](http://18.214.150.124/)
+
+**Note**:
+- *When accessing websites, always prefer using the HTTPS version for a more secure experience. It encrypts your connection, ensuring your data remains safe while browsing.* 
+- *The server is temporary and may be taken down shortly. If the instance is stopped, the server will be unavailable, and the links above may not work until the instance is restarted.*
+- *If the instance is **terminated**, the IP address associated to this url will no longer be available.*
 
 📸 Here’s a snapshot of the landing page you’ll be visiting. 
 ![Landing page](./images/HTTPS_version_of_HTML_Page.png)
