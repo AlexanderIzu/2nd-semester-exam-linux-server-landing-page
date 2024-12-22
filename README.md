@@ -1,10 +1,9 @@
-# Welcome to Izuchukwu's Landing Page: A Prototype for a Web Application Demo 🚀
+# Introducing Izuchukwu's Landing Page: A Web App Prototype 🖥️
 
-Hey there! Welcome to my landing page project! In this journey, I got my hands dirty provisioning a cloud server, setting up a web server, and deploying a landing page to showcase my skills. Here’s a quick peek at how I did it. 😊
+Hello and welcome to my Linux-powered landing page project, deployed on an EC2 instance in AWS. In this project, I had the opportunity to dive into provisioning a cloud server, setting up a web server, and deploying a simple landing page to showcase my skills. Let me walk you through how I brought it all together.
+## Check Out the Web Page
 
-## 🌐 Check Out the Web Page
-
-Want to see it live? Click below to check out my deployed landing page:
+Before we dive into the details, want to see it live? Click below to check out my deployed landing page:
 
 **Website (Secure HTTPS URL)**: [https://web.izuchukwu.mooo.com](https://web.izuchukwu.mooo.com)
 
@@ -17,7 +16,7 @@ Want to see it live? Click below to check out my deployed landing page:
 
 
 ### 🛠️ How I Built It
-#### Step 1: Provisioning the Server 🖥️
+**Step 1:** Provisioning the Server 
 
 I started by provisioning an EC2 instance on AWS. I went with the Ubuntu Server 22.04 LTS AMI, selected the t2.micro instance type (free-tier eligible), and set up a Key Pair for secure SSH access.
 
@@ -33,7 +32,7 @@ I started by provisioning an EC2 instance on AWS. I went with the Ubuntu Server 
 ```bash
 ssh -i "Alexkey.pem" ubuntu@my-public-ip
 ```
-**Step 2: Installing Apache** 🌐
+**Step 2: Installing Apache** 
 
 To serve my page, I needed a web server. I installed Apache on the server and made sure it started automatically whenever the server booted up.
 
@@ -57,8 +56,10 @@ sudo systemctl enable apache2
 Snapshot of Apache installed and running 📸
 ![Apache running on web browser](./images/Apache2_running.png)
 
+**Note**: 
+-  I have attached an Elastic IP to the EC2 instance. The public IP shown in the image is not accessible, as Elastic IPs carry a different IP address.
 
-### Step 3: Deploying the Landing Page 📝
+### Step 3: Deploying the Landing Page 💻
 
 Next, I deployed the index.html landing page. I created this file in the server’s root directory and added a little introduction about me and a brief description of this project.
 
@@ -72,7 +73,7 @@ cd /var/www/html
 ```bash
 sudo nano index.html
 ```
-- Added the following HTML content: (Screenshot below)
+- Added the following HTML content: (Snapshot below)
 
 ![html content on nano text editor](./images/html_content.png)
 
@@ -115,11 +116,11 @@ Verified secure access via:
 - **The Deployed Landing Page (Secure HTTPS Link)**: [https://web.izuchukwu.mooo.com](https://web.izuchukwu.mooo.com)
 
 
-### What’s Inside the Repository 🎯 
+### What’s Inside the Repository 📦 
 Here’s a rundown of what you’ll find in this repository:
 
 - Public IP Address(secure): https://web.izuchukwu.mooo.com
-- Screenshots: screenshot images showing the deployed landing page and other processes during provisioning of the landing page on a Linux server
+- Snapshots: Images showcasing the deployed landing page and various steps involved in provisioning the landing page on a Linux server.
 - Documentation: This README.md file with all the details.
 - Git Repository: Includes:
     - index.html
@@ -127,4 +128,9 @@ Here’s a rundown of what you’ll find in this repository:
     - README.md
 
 ### Wrapping Up 🏁 
-This project was a fantastic way to dive into server provisioning, web server setup, and cloud-based web deployment. I hope you enjoyed seeing my process. Feel free to check out the page and let me know your thoughts! 💬
+This project was a valuable experience in diving into server provisioning, web server setup, and cloud-based web deployment. I hope you enjoyed seeing my process. Feel free to check out the page and let me know your thoughts! 💬
+
+## Useful Resources
+
+- [AWS Amazon EC2 Documentation](https://docs.aws.amazon.com/ec2/)
+- [Free DNS ](https://freedns.afraid.org/)
